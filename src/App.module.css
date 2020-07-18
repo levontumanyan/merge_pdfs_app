@@ -1,0 +1,27 @@
+.container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 50vh;
+}
+
+.form_container {
+    border: 1px solid blue;
+    min-width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.results {
+    border: 1px solid blue;
+    min-width: 50%;
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
